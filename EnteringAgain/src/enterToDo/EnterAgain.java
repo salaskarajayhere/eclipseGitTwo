@@ -32,6 +32,7 @@ public class EnterAgain extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<b>Welcome to JEE ! Get Kicking !! Make it Big, Very Very BIIIIGGGGGG !!!!</b>");
+		out.println("<b>And Bingo it is</b>");
 		out.println("</html>");
 	}
 
