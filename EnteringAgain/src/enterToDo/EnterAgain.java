@@ -34,6 +34,10 @@ public class EnterAgain extends HttpServlet {
 		out.println("<b>Welcome to JEE ! Get Kicking !! Make it Big, Very Very BIIIIGGGGGG !!!!</b>");
 		out.println("<b>And <i>BINGO</i> it is  !!!!! </b>");
 		out.println("</html>");
+		trialPost tp = new trialPost();
+		tp.display();
+		String[] args = {"this","that"};
+		tp.main(args);
 	}
 
 	/**
