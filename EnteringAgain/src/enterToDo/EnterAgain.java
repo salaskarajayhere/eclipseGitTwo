@@ -29,10 +29,13 @@ public class EnterAgain extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String fname = "sue";
+		
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<b>Welcome to JEE ! Get Kicking !! Make it Big, Very Very BIIIIGGGGGG !!!!</b>");
 		out.println("<b>And <i>BINGO</i> it is  !!!!! </b>");
+		//out.println("FirstName : <input type="text" value="fname" name="firstname"/>");
 		out.println("</html>");
 		trialPost tp = new trialPost();
 		tp.display();
