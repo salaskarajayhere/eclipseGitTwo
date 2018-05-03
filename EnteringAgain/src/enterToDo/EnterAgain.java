@@ -41,7 +41,7 @@ public class EnterAgain extends HttpServlet {
 		out.println("\n");
 		out.println(tp.display());
 		String[] args = {"this","that"};
-		
+		out.println("/////Context path is "+ request.getContextPath());
 		trialPost.main(args);
 	}
 
