@@ -38,9 +38,11 @@ public class EnterAgain extends HttpServlet {
 		//out.println("FirstName : <input type="text" value="fname" name="firstname"/>");
 		out.println("</html>");
 		trialPost tp = new trialPost();
-		tp.display();
+		out.println("\n");
+		out.println(tp.display());
 		String[] args = {"this","that"};
-		tp.main(args);
+		
+		trialPost.main(args);
 	}
 
 	/**
