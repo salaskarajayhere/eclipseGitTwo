@@ -9,8 +9,8 @@ public class trialPost {
 	}
 	
 
-	public void display(){
-		System.out.println("displaying trialPost");
+	public  String display(){
+		return "Displaying TRIAL POST JUST FOR A TRIAL";
 	}
 	
 }
