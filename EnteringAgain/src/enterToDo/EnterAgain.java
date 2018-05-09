@@ -35,7 +35,9 @@ public class EnterAgain extends HttpServlet {
 		out.println("<html>");
 		out.println("<b>Welcome to JEE ! Get Kicking !! Make it Big, Very Very BIIIIGGGGGG !!!!</b>");
 		out.println("<b>And <i>BINGO</i> it is  !!!!! </b>");
-		//out.println("FirstName : <input type="text" value="fname" name="firstname"/>");
+		out.println("<img src='" + request.getContextPath() + "/romance.jpg' alt='romance' height='400px' width='500px'>");
+		//out.println("<img src='file:///C:/Users/Ajay/Downloads/WALLPAPERS/romance.jpg' alt='romance' height='600px' width='700px'>");
+
 		out.println("</html>");
 		trialPost tp = new trialPost();
 		out.println("\n");
@@ -43,6 +45,7 @@ public class EnterAgain extends HttpServlet {
 		String[] args = {"this","that"};
 		out.println("/////Context path is "+ request.getContextPath());
 		trialPost.main(args);
+		out.println("Entering a text to update a file so as to push it upstream");
 	}
 
 	/**
