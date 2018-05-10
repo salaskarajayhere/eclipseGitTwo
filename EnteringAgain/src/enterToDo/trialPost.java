@@ -6,6 +6,7 @@ public class trialPost {
 		System.out.println("Testing adding addtional files to the repository");
 		System.out.println(args[0]);
 		System.out.println(args[1]);
+		System.out.println("They are the arguments passed to the main function in trialPost");
 	}
 	
 
