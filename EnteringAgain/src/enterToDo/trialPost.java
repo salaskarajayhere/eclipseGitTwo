@@ -10,7 +10,7 @@ public class trialPost {
 	
 
 	public  String display(){
-		String name : Rogger;
+		String name : "Rogger with his friend" ;
 		return name + "is " + "Displaying TRIAL POST JUST FOR A TRIAL";
 	}
 	
