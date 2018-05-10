@@ -46,6 +46,7 @@ public class EnterAgain extends HttpServlet {
 		out.println("/////Context path is "+ request.getContextPath());
 		trialPost.main(args);
 		out.println("Entering a text to update a file so as to push it upstream");
+                out.println("Entered a text through github");
 	}
 
 	/**
