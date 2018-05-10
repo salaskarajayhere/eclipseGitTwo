@@ -10,7 +10,8 @@ public class trialPost {
 	
 
 	public  String display(){
-		return "Displaying TRIAL POST JUST FOR A TRIAL";
+		String name : Rogger;
+		return name + "is " + "Displaying TRIAL POST JUST FOR A TRIAL";
 	}
 	
 }
